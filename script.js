@@ -6,7 +6,7 @@ let player2Dice = document.querySelector(".img2")
 let button1 = document.querySelector(".roll-dice-1")
 let button2 = document.querySelector(".roll-dice-2")
 
-const diceImages = ["images/dice1.png", "images/dice2.png", "images/dice3.png", "images/dice4.png", "images/dice5.png", "images/dice6.png"]
+const diceImages = ["dice1.png", "dice2.png", "dice3.png", "dice4.png", "dice5.png", "dice6.png"]
 
 button1.addEventListener("click", () => {
     let randomDiceNumber1 = Math.floor(Math.random()*6) 
